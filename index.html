@@ -61,6 +61,7 @@
             position: absolute;
             right: 25%;
             top: 16%;
+            z-index: 10;
         }
         #star {
             height: 20rem;
@@ -217,6 +218,12 @@
             top: 10rem;
             left: 10rem;
         }
+        @media only screen and (max-width: 1200px) {
+            #star,#star2,#star3,#star4,#star5,#star6,#star7,#star8,#star9,#star10,#star11,#star12,#star13,#star14,#star15,#star16,#star17,#star18,#star19,#star20,#star21,#star22,#star23,#star24 {
+                display: none;
+            }
+            
+        }
     </style>
 </head>
 <body>
@@ -229,7 +236,7 @@
                 <img src="./img/gorilla.png" alt="gorilla" id="gorilla">
                 <img src="./img/Space_Ships2.png" alt="spaceship" id="spaceship">
                 <img src="./img/Eye_Ball.png" alt="Eye_Ball" id="eyeBall">
-                <h1 style="color: red; font-style: italic; margin: auto;" id="title">Alien Invasion</h1>
+                <h1 style="color: red; font-style: italic;" id="title">Alien Invasion</h1>
                 <img src="./img/Star.png" alt="star" id="star">
                 <img src="./img/Star.png" alt="star" id="star2">
                 <img src="./img/Star.png" alt="star" id="star3">
